@@ -2,5 +2,13 @@
     "pack": {
         "pack_format":41,
         "description":"脱出10秒前"
+    },
+    "filter":{
+        "block":[
+            {
+                "namespace":"minecraft",
+                "path":"recipes/*"
+            }
+        ]
     }
 }

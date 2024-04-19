@@ -1,0 +1,41 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#countdown"
+                },
+                "score": "tick"
+            },
+            "range": 60
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#countdown"
+                },
+                "score": "tick"
+            },
+            "range": 40
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#countdown"
+                },
+                "score": "tick"
+            },
+            "range": 20
+        }
+    ]
+}

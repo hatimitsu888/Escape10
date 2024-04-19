@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "10sec:stage/reset/success"
+    }
+}

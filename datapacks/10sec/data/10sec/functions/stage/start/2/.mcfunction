@@ -1,3 +1,5 @@
+#ボタン除去
+setblock 2 -59 40 air destroy
 #スコア初期化
 scoreboard players set #color_phase tmp 0
 #ロウソクを付与

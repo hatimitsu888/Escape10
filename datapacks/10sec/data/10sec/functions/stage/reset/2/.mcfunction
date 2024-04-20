@@ -6,3 +6,4 @@ fill 1 -59 41 3 -59 41 air replace
 setblock 2 -59 40 stone_button[face=floor] replace
 #ロウソクをクリア
 clear @a *[minecraft:custom_data={color_candle:1b}]
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{color_candle:1b}}}}]

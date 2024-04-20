@@ -1,21 +1,3 @@
 {
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2024-04-19 21:18:00 +0900"
-    },
-    "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2024-04-19 21:18:02 +0900"
-    },
-    "done": true
-  },
-  "10sec:success": {
-    "criteria": {
-      "requirement": "2024-04-20 01:27:42 +0900"
-    },
-    "done": true
-  },
-  "DataVersion": 3834
+  "DataVersion": 3835
 }

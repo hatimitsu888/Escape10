@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification":false,
+  "pattern": [
+      "XXX",
+      "X X"
+  ],
+  "key": {
+      "X": {
+          "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+      "id": "minecraft:iron_helmet",
+      "count": 1,
+      "components": {
+          "minecraft:custom_data": {
+            "crafted_item":1
+          }
+      }
+  }
+}

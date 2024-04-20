@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification":false,
+  "pattern": [
+      "X X",
+      "X X"
+  ],
+  "key": {
+      "X": {
+          "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+      "id": "minecraft:iron_boots",
+      "count": 1,
+      "components": {
+          "minecraft:custom_data": {
+            "crafted_item":1
+          }
+      }
+  }
+}

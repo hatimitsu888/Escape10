@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification":false,
+  "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+  ],
+  "key": {
+      "X": {
+          "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+      "id": "minecraft:iron_leggings",
+      "count": 1,
+      "components": {
+          "minecraft:custom_data": {
+            "crafted_item":1
+          }
+      }
+  }
+}

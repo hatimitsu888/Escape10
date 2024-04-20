@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification":false,
+  "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+  ],
+  "key": {
+      "X": {
+          "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+      "id": "minecraft:iron_chestplate",
+      "count": 1,
+      "components": {
+          "minecraft:custom_data": {
+            "crafted_item":1
+          }
+      }
+  }
+}

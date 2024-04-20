@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification":false,
+  "pattern": [
+      "X",
+      "X",
+      "O"
+  ],
+  "key": {
+      "X": {
+          "item": "minecraft:diamond"
+      },
+      "O": {
+        "item": "minecraft:stick"
+    }
+  },
+  "result": {
+      "id": "minecraft:diamond_sword",
+      "count": 1,
+      "components": {
+          "minecraft:custom_data": {
+            "crafted_item":1
+          }
+      }
+  }
+}

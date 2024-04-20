@@ -1,5 +1,5 @@
 #ヒントを表示
-title @a actionbar [{"text":"他と違うボタンを押せ！","color":"#ff5555"},{"score":{"name":"#button_cnt","objective":"tmp"}},{"text":"/7"}]
+title @a actionbar [{"text":"他と違うボタンを押そう！","color":"#ff5555"},{"score":{"name":"#button_cnt","objective":"tmp"}},{"text":"/7"}]
 
 #ボタンが押されているかどうか
 execute if block -1 -58 25 stone_button[powered=true] run function 10sec:stage/main/1/push
@@ -60,3 +60,6 @@ execute if block 5 -58 31 stone_button[powered=true] run function 10sec:stage/ma
 
 #クリア
 execute if score #button_cnt tmp matches 7.. run advancement grant @a only 10sec:success
+
+#戻り値
+return 1

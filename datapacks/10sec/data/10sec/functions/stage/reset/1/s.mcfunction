@@ -8,7 +8,10 @@ setblock 2 -59 40 stone_button[face=floor] replace
 #タイトル表示
 title @a reset
 title @a times 20 60 20
-title @a subtitle {"text":"～ロウソク～"}
+title @a subtitle {"text":"～色合わせ～"}
 title @a title {"text":"Stage2"}
 #初期化処理
 function 10sec:stage/reset/1/
+
+#戻り値
+return 1

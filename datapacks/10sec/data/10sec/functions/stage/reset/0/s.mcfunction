@@ -11,3 +11,6 @@ title @a title {"text":"Stage1"}
 title @a subtitle {"text":"～ボタン～"}
 #初期化処理
 function 10sec:stage/reset/0/
+
+#戻り値
+return 1

@@ -1,0 +1,76 @@
+{
+    "criteria": {
+        "iron_helmet": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:iron_equipments/iron_helmet"
+            }
+        },
+        "iron_chestplate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:iron_equipments/iron_chestplate"
+            }
+        },
+        "iron_leggings": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:iron_equipments/iron_leggings"
+            }
+        },
+        "iron_boots": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:iron_equipments/iron_boots"
+            }
+        },
+
+        "diamond_sword": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:diamond_tools/diamond_sword"
+            }
+        },
+        "diamond_shovel": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:diamond_tools/diamond_shovel"
+            }
+        },
+        "diamond_pickaxe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:diamond_tools/diamond_pickaxe"
+            }
+        },
+        "diamond_axe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:diamond_tools/diamond_axe"
+            }
+        },
+        "diamond_hoe": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "10sec:diamond_tools/diamond_hoe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron_helmet",
+            "iron_chestplate",
+            "iron_leggings",
+            "iron_boots",
+
+            "diamond_sword",
+            "diamond_shovel",
+            "diamond_pickaxe",
+            "diamond_axe",
+            "diamond_hoe"
+        ]
+    ],
+    "rewards": {
+        "function": "10sec:stage/main/4/crafted"
+    }
+}

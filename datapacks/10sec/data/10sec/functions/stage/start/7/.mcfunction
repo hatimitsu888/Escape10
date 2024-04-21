@@ -14,7 +14,7 @@ scoreboard players reset #visible_num tmp
 data remove storage 10sec: tmp.keycode
     #1個目
     data modify storage 10sec: tmp.keycode.0 set value [0,0,0,0]
-    #これを普通にすると少し時間が厳しいので没
+    #これを普通にするとかなり時間が厳しいので没
     # execute store result storage 10sec: tmp.keycode.0[0] int 1 run random value 0..9
     # execute store result storage 10sec: tmp.keycode.0[1] int 1 run random value 0..9
     # execute store result storage 10sec: tmp.keycode.0[2] int 1 run random value 0..9

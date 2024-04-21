@@ -12,3 +12,4 @@ execute if score #stage flags matches 4 run function 10sec:stage/start/4/
 execute if score #stage flags matches 5 run function 10sec:stage/start/5/
 execute if score #stage flags matches 6 run function 10sec:stage/start/6/
 execute if score #stage flags matches 7 run function 10sec:stage/start/7/
+execute if score #stage flags matches 8 run function 10sec:stage/start/8/

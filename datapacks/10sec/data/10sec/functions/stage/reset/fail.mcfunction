@@ -16,6 +16,7 @@ execute if score #stage flags matches 4 run function 10sec:stage/reset/4/f
 execute if score #stage flags matches 5 run function 10sec:stage/reset/5/f
 execute if score #stage flags matches 6 run function 10sec:stage/reset/6/f
 execute if score #stage flags matches 7 run function 10sec:stage/reset/7/f
+execute if score #stage flags matches 8 run function 10sec:stage/reset/8/f
 
 #死
 kill @a

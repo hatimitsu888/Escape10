@@ -1,3 +1,9 @@
 {
+  "10sec:success": {
+    "criteria": {
+      "requirement": "2024-04-22 02:53:54 +0900"
+    },
+    "done": true
+  },
   "DataVersion": 3835
 }

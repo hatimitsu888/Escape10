@@ -1,0 +1,160 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{code:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "custom_name",
+                            "name": [
+                                {
+                                    "nbt": "tmp.keycode.0[0]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.0[1]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.0[2]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.0[3]",
+                                    "storage": "10sec:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "#door_phase"
+                        },
+                        "score": "tmp"
+                    },
+                    "range": 0
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{code:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "custom_name",
+                            "name": [
+                                {
+                                    "nbt": "tmp.keycode.1[0]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.1[1]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.1[2]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.1[3]",
+                                    "storage": "10sec:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "#door_phase"
+                        },
+                        "score": "tmp"
+                    },
+                    "range": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{code:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "target": "custom_name",
+                            "name": [
+                                {
+                                    "nbt": "tmp.keycode.2[0]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.2[1]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.2[2]",
+                                    "storage": "10sec:"
+                                },
+                                {
+                                    "nbt": "tmp.keycode.2[3]",
+                                    "storage": "10sec:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "#door_phase"
+                        },
+                        "score": "tmp"
+                    },
+                    "range": 2
+                }
+            ]
+        }
+    ]
+}

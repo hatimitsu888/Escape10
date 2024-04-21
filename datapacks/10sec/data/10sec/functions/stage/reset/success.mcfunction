@@ -17,3 +17,4 @@ execute if score #stage flags matches 3 if function 10sec:stage/reset/3/s run re
 execute if score #stage flags matches 4 if function 10sec:stage/reset/4/s run return 0
 execute if score #stage flags matches 5 if function 10sec:stage/reset/5/s run return 0
 execute if score #stage flags matches 6 if function 10sec:stage/reset/6/s run return 0
+execute if score #stage flags matches 7 if function 10sec:stage/reset/7/s run return 0

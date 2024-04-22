@@ -1,5 +1,5 @@
 #ヒントを表示
-title @a actionbar {"text":"同じ色のロウソクを置こう！","color":"#ff5555"}
+title @a actionbar [{"text":"同じ色のロウソクを置こう！","color":"#ff5555"},{"score":{"name":"#color_phase","objective":"tmp"}},{"text":"/3"}]
 
 #ロウソクが置かれていたら
 execute unless block 3 -59 41 air unless block 2 -59 41 air unless block 1 -59 41 air run function 10sec:stage/main/2/phase

@@ -9,6 +9,11 @@ advancement revoke @a only 10sec:start
 #ヒント非表示
 title @a actionbar {"text":""}
 
+#ステージ1ならプレイ回数追加
+execute if score #stage flags matches 1 run function 10sec:stage/common/play_data/count_up
+#プレイデータ書き加え
+function 10sec:stage/common/play_data/write
+
 #現在のステージによって処理変
 execute if score #stage flags matches 0 if function 10sec:stage/reset/0/s run return 0
 execute if score #stage flags matches 1 if function 10sec:stage/reset/1/s run return 0

@@ -1,3 +1,6 @@
+#プレイデータ作成
+function 10sec:stage/common/play_data/create
+
 #クリア
 spawnpoint @a 2 -59 23
 tp @a 2 -59 23

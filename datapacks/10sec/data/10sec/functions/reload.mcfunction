@@ -27,3 +27,10 @@ scoreboard objectives add math dummy
 #一時保存
 scoreboard objectives add tmp dummy
 data remove storage 10sec: tmp
+
+#挑戦回数・時間
+scoreboard objectives add challenge dummy
+scoreboard players add #count challenge 0
+scoreboard players add #playtime tick 0
+    #define score_holder #count 挑戦回数
+    #define score_holder #playtime 挑戦時間

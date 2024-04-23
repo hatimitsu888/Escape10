@@ -3,6 +3,7 @@ function 10sec:stage/common/play_data/book/time
 
 #最初のページ
 data remove storage 10sec_result: book
+execute store result storage 10sec_result: book.first.minute int 1 run scoreboard players get #minute challenge
 execute store result storage 10sec_result: book.first.sec int 1 run scoreboard players get #sec challenge
 execute store result storage 10sec_result: book.first.msec int 1 run scoreboard players get #msec challenge
 execute store result storage 10sec_result: book.first.count int 1 run scoreboard players get #count challenge

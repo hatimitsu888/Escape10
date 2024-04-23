@@ -8,12 +8,12 @@ data remove entity @s attack
 #何を持ってる
 #   0=red 1=yellow 2=green 3=blue 4=purple 5=black
 scoreboard players set #color_id tmp -1
-execute if data entity @p {SelectedItem:{id:"minecraft:red_stained_glass"}} run scoreboard players set #color_id tmp 0
-execute if data entity @p {SelectedItem:{id:"minecraft:yellow_stained_glass"}} run scoreboard players set #color_id tmp 1
-execute if data entity @p {SelectedItem:{id:"minecraft:green_stained_glass"}} run scoreboard players set #color_id tmp 2
-execute if data entity @p {SelectedItem:{id:"minecraft:blue_stained_glass"}} run scoreboard players set #color_id tmp 3
-execute if data entity @p {SelectedItem:{id:"minecraft:purple_stained_glass"}} run scoreboard players set #color_id tmp 4
-execute if data entity @p {SelectedItem:{id:"minecraft:black_stained_glass"}} run scoreboard players set #color_id tmp 5
+execute if items entity @a weapon.mainhand minecraft:red_stained_glass run scoreboard players set #color_id tmp 0
+execute if items entity @a weapon.mainhand minecraft:yellow_stained_glass run scoreboard players set #color_id tmp 1
+execute if items entity @a weapon.mainhand minecraft:green_stained_glass run scoreboard players set #color_id tmp 2
+execute if items entity @a weapon.mainhand minecraft:blue_stained_glass run scoreboard players set #color_id tmp 3
+execute if items entity @a weapon.mainhand minecraft:purple_stained_glass run scoreboard players set #color_id tmp 4
+execute if items entity @a weapon.mainhand minecraft:black_stained_glass run scoreboard players set #color_id tmp 5
 
 #データ格納
 execute if entity @s[tag=down] store result storage 10sec: tmp.color_match.3D_result.down int 1 run scoreboard players get #color_id tmp

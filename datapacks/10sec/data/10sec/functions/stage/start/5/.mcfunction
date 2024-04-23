@@ -6,7 +6,7 @@ recipe take @a *
 data remove storage 10sec: tmp.color_match
 #どこにどの色を置くかをランダムで決める
 #   0=red 1=yellow 2=green 3=blue 4=purple 5=black
-data modify storage 10sec: tmp.color_match.3D_result set value {down:0,north:0,west:0,south:0,east:0,up:0}
+data modify storage 10sec: tmp.color_match.3D_result set value {down:-1,north:-1,west:-1,south:-1,east:-1,up:-1}
 data modify storage 10sec: tmp.color_match.3D set value {down:0,north:0,west:0,south:0,east:0,up:0}
 execute store result storage 10sec: tmp.color_match.3D.down int 1 run random value 0..5
 execute store result storage 10sec: tmp.color_match.3D.north int 1 run random value 0..5

@@ -1,3 +1,5 @@
+#ボタン壊す
+setblock 2 -58 63 air destroy
 #フェーズスコア
 scoreboard players set #craft_phase tmp 0
 #レシピ作成
